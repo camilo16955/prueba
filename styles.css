@@ -1,0 +1,48 @@
+/* Estilos personalizados para los botones de navegación */
+.navbar-nav .nav-link {
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+/* Estilos para el estado de hover */
+.navbar-nav .nav-link:hover {
+    background-color: #343a40; /* Cambio de color de fondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+   /* Reglas CSS para centrar la imagen */
+   .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajustar la altura para centrar verticalmente */
+}
+img {
+    width: 50%; /* Reducirá el ancho de la imagen al 50% de su tamaño original */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+  }
+  /* Estilos para el botón */
+  .btn-volver-arriba {
+    position: fixed; /* Se mantendrá fijo en la esquina inferior derecha */
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; /* Asegura que esté por encima de otros elementos */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+   /* Estilo para el fondo de la página */
+   body {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+    background-image: url('Musica.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: fixed;
+    height: 100vh; /* Ajustar la altura para centrar verticalmente el contenido */
+    color: black; /* Color del texto para que se vea legible en la imagen de fondo */
+}
+.color-especifico {
+    color: whitesmoke; /* Cambia el color de la fuente en donde no se logra ver por la imagen de fondo */
+}
